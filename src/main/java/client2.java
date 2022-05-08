@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-
+  
 public class Client {
     public Client(String host, int port) throws  Exception{
         Socket socket = new Socket(host, port);
@@ -16,7 +16,11 @@ public class Client {
 
         socket.close();
         System.out.println("The socket is closed");
-    }
+    
+
+	
+	
+}
 
     public static void main(String[] args) {
         try {
