@@ -7,7 +7,7 @@ import java.net.Socket;
 public class Server {
     public Server(int port) throws Exception{
         ServerSocket server = new ServerSocket(port);
-        System.out.println("Waiting for a client connetion...");
+        System.out.println("Waiting for a connetion...");
 
         Socket socket = server.accept();
         System.out.println("The client "+ socket.getInetAddress() + " has connected");
